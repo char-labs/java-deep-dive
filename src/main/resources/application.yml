@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: java-cs-interview
+  main:
+    banner-mode: off
+    web-application-type: none
+logging:
+  level:
+    root: WARN
+    com.cs: INFO
+  pattern:
+    console: "%d{HH:mm:ss.SSS} %-5level %logger{0} - %msg%n"
